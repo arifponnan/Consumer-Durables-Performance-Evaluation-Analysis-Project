@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-This project delivers a consolidated **Executive Performance Dashboard** for a pan-India Consumer Durables company operating across **8 product categories**, **5 distribution channels**, and **80+ dealer partners**. By integrating three years (2022–2024) of monthly SKU sales (7,200+ rows), warehouse inventory logs, dealer credit ledgers, and multi-channel marketing budgets, this solution provides senior leadership with a unified reporting layer for **Quarterly Business Reviews (QBRs)**.
+This project delivers a consolidated **Executive Performance Dashboard** for a pan-India Consumer Durables company operating across **8 product categories**, **5 distribution channels**, and **80+ dealer partners**. By integrating three years (2022–2024) of monthly SKU sales (7,200+ rows), warehouse inventory logs, dealer credit ledgers, and multi-category marketing budgets, this solution provides senior leadership with a unified reporting layer for **Quarterly Business Reviews (QBRs)**.
 
 The analysis uncovers critical revenue recovery opportunities in **Andhra Pradesh (-32% YoY)**, flags **17 credit-risk dealer partners**, isolates high-return SKUs eroding profitability (**AC-1.5T-WS**), and resolves supply chain imbalances across **Mumbai** and **Chennai** regional warehouses.
 
@@ -11,19 +11,19 @@ The analysis uncovers critical revenue recovery opportunities in **Andhra Prades
 ## Dashboard Preview & Screenshots
 
 ### 1. Executive Revenue, Seasonality & Mix Overview
-*Tracks YoY revenue trends, gross margin performance, 3-year category/channel mix shifts, and multi-dimensional revenue decomposition.*
+*Tracks YoY revenue trends, gross margin performance, 3-year category/channel mix shifts, and multi-dimensional revenue and profit decomposition.*
 
 <img width="1000" height="580" alt="image" src="https://github.com/user-attachments/assets/c6328e7c-f884-470b-af2d-b13213c8fbb8" />
 
 
 ### 2. Customer Quality & Dealer Network Health
-*Highlights high-return/low-CSAT SKU outliers (`AC-1.5T-WS`), regional service call heatmaps, and the 17 high-risk dealers exceeding credit limits.*
+*Highlights high-return/low-CSAT SKU outliers, regional service call heatmaps, and the high-risk dealers exceeding credit limits.*
 
 <img width="1352" height="772" alt="image" src="https://github.com/user-attachments/assets/12784fbc-ebcf-4858-b4c1-aa60f94cba87" />
 
 
 ### 3. Marketing ROI & Inventory Risk Management
-*Evaluates category Cost Per Lead (CPL), ad-spend-to-revenue correlation, warehouse stockout gaps (`Mumbai WH`), and excess stock exposure (`Chennai WH`).*
+*Evaluates category wise Cost Per Lead (CPL), ad-spend-to-revenue correlation, warehouse stockout gaps in region and SKU , and excess stock exposure.*
 
 <img width="1407" height="781" alt="image" src="https://github.com/user-attachments/assets/2676f316-0ae0-4908-94a4-e5c68e8bc61c" />
 
