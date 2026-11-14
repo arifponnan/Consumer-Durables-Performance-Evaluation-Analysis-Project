@@ -1,12 +1,40 @@
 # Consumer Durables Executive Performance Dashboard (2022–2024)
-
-## Executive Summary
+## Project Objective
 
 This project delivers a consolidated **Executive Performance Dashboard** for a pan-India Consumer Durables company operating across **8 product categories**, **5 distribution channels**, and **80+ dealer partners**. By integrating three years (2022–2024) of monthly SKU sales (7,200+ rows), warehouse inventory logs, dealer credit ledgers, and multi-category marketing budgets, this solution provides senior leadership with a unified reporting layer for **Quarterly Business Reviews (QBRs)**.
+
+
+### Core Business Questions Addressed
+
+1. **Revenue & Profitability:** How is the business trending YoY, and which categories, regions, and channels drive the most revenue and gross margin?
+
+2. **Seasonality & Mix:** Where are the seasonal spikes, and how has the product/channel mix shifted over 3 years?
+
+3. **Customer Quality:** Which SKUs and segments have the highest return rates and lowest CSAT, and where are service calls concentrated?
+
+4. **Dealer Health:** Which dealers are at risk (high outstanding balance vs. credit limit, paired with below-target achievement), and is there a regional concentration of underperformers?
+
+5. **Marketing Efficiency:** What is the Cost Per Lead (CPL) by category, and does higher ad spend correlate with revenue growth?
+
+6. **Inventory Risk:** Which SKUs are sitting below reorder levels, and where is overstock risk concentrated?
+
 
 The analysis uncovers critical revenue recovery opportunities in **Andhra Pradesh (-32% YoY)**, flags **17 credit-risk dealer partners**, isolates high-return SKUs eroding profitability (**AC-1.5T-WS**), and resolves supply chain imbalances across **Mumbai** and **Chennai** regional warehouses.
 
 ---
+
+
+## Dataset Overview
+
+The underlying data model connects five core tables covering 2022–2024 operations:
+
+| Sheet / Table Name | Scope & Granularity | Key Metrics & Attributes | 
+| ----- | ----- | ----- | 
+| **`Sales_Data`** | 7,200 rows of monthly SKU sales | Revenue, COGS, Gross Profit, Returns, CSAT, and Service Calls by SKU, Region, Channel & Segment | 
+| **`Inventory`** | SKU-level warehouse stock | Current Stock, Reorder Levels, Supplier Lead Times, and Warehouse Mapping | 
+| **`Dealer_Network`** | 80+ authorized dealer partners | Sales Targets, YTD Achievement, Credit Exposure, and Net Promoter Score (NPS) | 
+| **`Marketing_Spend`** | Monthly category media budgets | Spend breakdown across TV, Digital, Print, BTL, and Sponsorships | 
+| **`Data_Dictionary`** | Schema metadata | Definitions and business rules for every column | 
 
 ## Dashboard Preview & Screenshots
 
@@ -30,35 +58,8 @@ The analysis uncovers critical revenue recovery opportunities in **Andhra Prades
 
 ---
 
-## Project Objective
 
-The objective of this analysis is to build a consolidated performance dashboard that integrates commercial sales, warehouse inventory, dealer network health, and marketing efficiency data into a single source of truth to support executive decision-making during Quarterly Business Reviews.
 
-### Core Business Questions Addressed
-
-1. **Revenue & Profitability:** How is the business trending YoY, and which categories, regions, and channels drive the most revenue and gross margin?
-
-2. **Seasonality & Mix:** Where are the seasonal spikes, and how has the product/channel mix shifted over 3 years?
-
-3. **Customer Quality:** Which SKUs and segments have the highest return rates and lowest CSAT, and where are service calls concentrated?
-
-4. **Dealer Health:** Which dealers are at risk (high outstanding balance vs. credit limit, paired with below-target achievement), and is there a regional concentration of underperformers?
-
-5. **Marketing Efficiency:** What is the Cost Per Lead (CPL) by category, and does higher ad spend correlate with revenue growth?
-
-6. **Inventory Risk:** Which SKUs are sitting below reorder levels, and where is overstock risk concentrated?
-
-## Dataset Overview
-
-The underlying data model connects five core tables covering 2022–2024 operations:
-
-| Sheet / Table Name | Scope & Granularity | Key Metrics & Attributes | 
-| ----- | ----- | ----- | 
-| **`Sales_Data`** | 7,200 rows of monthly SKU sales | Revenue, COGS, Gross Profit, Returns, CSAT, and Service Calls by SKU, Region, Channel & Segment | 
-| **`Inventory`** | SKU-level warehouse stock | Current Stock, Reorder Levels, Supplier Lead Times, and Warehouse Mapping | 
-| **`Dealer_Network`** | 80+ authorized dealer partners | Sales Targets, YTD Achievement, Credit Exposure, and Net Promoter Score (NPS) | 
-| **`Marketing_Spend`** | Monthly category media budgets | Spend breakdown across TV, Digital, Print, BTL, and Sponsorships | 
-| **`Data_Dictionary`** | Schema metadata | Definitions and business rules for every column | 
 
 ## Analysis Approach & Visual Methodology
 
