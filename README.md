@@ -13,18 +13,20 @@ The analysis uncovers critical revenue recovery opportunities in **Andhra Prades
 ### 1. Executive Revenue, Seasonality & Mix Overview
 *Tracks YoY revenue trends, gross margin performance, 3-year category/channel mix shifts, and multi-dimensional revenue decomposition.*
 
-![Executive Revenue & Seasonality Dashboard](<img width="1412" height="780" alt="image" src="https://github.com/user-attachments/assets/01a68074-6e17-42fc-a1a6-48cef0404f44" />
-)
+<img width="1000" height="580" alt="image" src="https://github.com/user-attachments/assets/c6328e7c-f884-470b-af2d-b13213c8fbb8" />
+
 
 ### 2. Customer Quality & Dealer Network Health
 *Highlights high-return/low-CSAT SKU outliers (`AC-1.5T-WS`), regional service call heatmaps, and the 17 high-risk dealers exceeding credit limits.*
 
-![Customer Quality & Dealer Risk View](assets/02_quality_and_dealer_health.png)
+<img width="1352" height="772" alt="image" src="https://github.com/user-attachments/assets/12784fbc-ebcf-4858-b4c1-aa60f94cba87" />
+
 
 ### 3. Marketing ROI & Inventory Risk Management
 *Evaluates category Cost Per Lead (CPL), ad-spend-to-revenue correlation, warehouse stockout gaps (`Mumbai WH`), and excess stock exposure (`Chennai WH`).*
 
-![Marketing Efficiency & Inventory Optimization](assets/03_marketing_and_inventory.png)
+<img width="1407" height="781" alt="image" src="https://github.com/user-attachments/assets/2676f316-0ae0-4908-94a4-e5c68e8bc61c" />
+
 
 ---
 
