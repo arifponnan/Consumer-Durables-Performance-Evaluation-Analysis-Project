@@ -10,12 +10,11 @@ The analysis uncovers critical revenue recovery opportunities in **Andhra Prades
 
 ## Dashboard Preview & Screenshots
 
-> **Note:** Replace the image file paths below (e.g., `assets/overview_dashboard.png`) with the actual paths or URLs to your uploaded screenshots in your GitHub repository.
-
 ### 1. Executive Revenue, Seasonality & Mix Overview
 *Tracks YoY revenue trends, gross margin performance, 3-year category/channel mix shifts, and multi-dimensional revenue decomposition.*
 
-![Executive Revenue & Seasonality Dashboard](assets/01_executive_overview.png)
+![Executive Revenue & Seasonality Dashboard](<img width="1412" height="780" alt="image" src="https://github.com/user-attachments/assets/01a68074-6e17-42fc-a1a6-48cef0404f44" />
+)
 
 ### 2. Customer Quality & Dealer Network Health
 *Highlights high-return/low-CSAT SKU outliers (`AC-1.5T-WS`), regional service call heatmaps, and the 17 high-risk dealers exceeding credit limits.*
