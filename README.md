@@ -67,7 +67,7 @@ The underlying data model connects five core tables covering 2022–2024 operati
 
 * **Customer Quality & Dealer Network Health:** Constructed a quadrant **Scatter Plot** comparing **Return Ratio vs. Average CSAT** to isolate critical SKUs eroding profitability and brand perception. Utilized a **Geospatial Map Visual** to pinpoint regional concentrations of post-sales service calls, and built a partner risk framework evaluating **Credit Limit Utilization** against **YTD Target Achievement**.
 
-* **Marketing Efficiency & ROI:** Analyzed category-level **Cost Per Lead (CPL)** and evaluated statistical correlation between multi-channel ad spend and top-line revenue growth.
+* **Marketing Efficiency & ROI:** Analyzed category-level **Cost Per Lead (CPL)** and evaluated correlation between category wise ad spend and top-line revenue growth.
 
 * **Inventory & Supply Chain Optimization:** Calculated dynamic safety stock buffers based on supplier lead times to flag both stockout and overstock risks, quantifying exact **Reorder Gaps** and **Excess Stock Units** by warehouse and SKU.
 
@@ -90,7 +90,7 @@ The underlying data model connects five core tables covering 2022–2024 operati
 | Focus Area | Finding / Target Entity | Actionable Recommendation | Expected Business Impact | 
 | ----- | ----- | ----- | ----- | 
 | **Regional Recovery** | Andhra Pradesh (Television: -32% YoY) | Focus regional ad spend and localized promotional bundles on the Television category in Andhra Pradesh | Reverses regional volume contraction and recaptures lost category share | 
-| **Product R&D & QA** | High-Return / Low-CSAT SKUs (AC-1.5T-WS) | Escalate flagged SKUs to the R&D and QA teams for engineering improvements and product viability studies | Reduces return erosion, lowers service call volume, and lifts regional CSAT | 
+| **Product R&D & QA** | High-Return / Low-CSAT SKUs (AC-1.5T-WS,AC-1T-WS) | Escalate flagged SKUs to the R&D and QA teams for engineering improvements and product viability studies | Reduces return erosion, lowers service call volume, and lifts regional CSAT | 
 | **Credit Governance** | 17 Critical Dealers (DL1079, DL1064, DL1053) | Freeze credit extensions for dealers >100% credit limit and <75% target achievement; enforce collection milestones | Mitigates bad-debt exposure and improves working capital recovery | 
 | **Marketing Reallocation** | Refrigeration & Vacuum Cleaners vs. Washing Machines | Audit inefficient ad spend in Refrigeration and Vacuum Cleaners; reallocate budget to low-CPL, high-revenue categories like Washing Machines | Optimizes blended ROAS and accelerates top-line revenue growth | 
 | **Stockout Replenishment** | 13 Stockout SKUs (288-unit gap; Mumbai WH: VC-ROBOT-STD) | Expedite purchase orders to close the 288-unit reorder gap, prioritizing VC-ROBOT-STD shipments to Mumbai WH | Prevents imminent lost sales and stabilizes regional order fulfillment | 
